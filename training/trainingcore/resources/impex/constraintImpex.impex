@@ -1,0 +1,7 @@
+INSERT_UPDATE NotNullConstraint;id[unique=true];severity(code,itemtype(code));active;annotation;descriptor(enclosingType(code),qualifier);message[lang=en]
+                               ;VehicleIdMustNotBeNull;ERROR:Severity;true;javax.validation.constraints.NotNull;VehicleList:id;Vehicle Id Must Not Be Null
+                               ;DriverNameMustNotBENull;ERROR:Severity;true;javax.validation.constraints.NotNull;VehicleDrivers:driverName;Driver name Must Not Be Null
+$lang=en
+INSERT_UPDATE AttributeConstraint; id[unique = true]; annotation[allownull = true]; descriptor(enclosingType(code), qualifier); qualifier   ; message[lang = $lang];target
+                                 ; RegistrationNumberValidator ; de.hybris.training.core.constraints.RegistrationNumber ; VehicleList:vehicleRegistrationNumber; vehicleRegistrationNumber ; Registration number must contain “KL”;de.hybris.training.core.model.VehicleListModel
+

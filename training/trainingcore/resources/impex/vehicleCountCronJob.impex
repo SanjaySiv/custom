@@ -1,0 +1,9 @@
+INSERT_UPDATE VehicleCountCronJob; code[unique=true];job(code);sessionLanguage(isocode);active
+                                 ;vehicleCountCronJob;vehicleCountJob;en;true
+
+INSERT_UPDATE ServiceLayerJob; code[unique=true];springId
+                             ;vehicleCountJob;vehicleCountJob
+
+INSERT_UPDATE Trigger;cronjob(code)[unique=true];active;cronExpression
+                     ;vehicleCountCronJob;true; 5 * * * *  ?
+

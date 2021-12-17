@@ -1,0 +1,14 @@
+INSERT_UPDATE VehicleDrivers;id[unique=true];driverName[lang=en];driverExperience
+                            ;0000D10000     ;Alen               ;4
+                            ;0000D10001     ;Subin              ;3
+                            ;0000D10002     ;Mathew             ;2
+                            ;0000D10003     ;Sanjay             ;3
+                            ;0000D10004     ;Sanoop             ;5
+
+INSERT_UPDATE VehicleDealers;id[unique=true];dealerName[lang=en];dealerAddress
+                            ;0000DL0000     ;Jhon Motors        ;Kottayam
+                            ;0000DL0001     ;Rent a Car         ;Palakkad
+                            ;0000DL0002     ;MLP Motors         ;Malappuram
+
+INSERT_UPDATE OAuthClientDetails;clientId[unique=true];resourceIds;scope;authorizedGrantTypes;clientSecret;authorities
+                                ;vehicleDrivers;driver;basic;authorization_code,refresh_token,password,client_credentials;vehicleDrivers;ROLE_TRUSTED_CLIENT

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CUSTOM" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../trainingcommercewebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../trainingcommercewebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../trainingcommercewebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/web/webroot/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../trainingcommercewebservices/backoffice/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../trainingcommercewebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../trainingcommercewebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../trainingcommercewebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../trainingcommercewebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="commercewebservicescommons" exported="" />
+    <orderEntry type="module" module-name="ordermanagementfacades" exported="" />
+    <orderEntry type="module" module-name="trainingfacades" exported="" />
+  </component>
+</module>

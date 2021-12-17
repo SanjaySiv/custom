@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<process xmlns="http://www.hybris.de/xsd/processdefinition" start="testAction" name="test-process"
+         processClass="de.hybris.training.core.model.TestProcessModel" onError="error">
+
+    <action id="testAction" bean="testAction">
+        <transition name="OK" to="success"/>
+        <transition name="NOK" to="error"/>
+    </action>
+
+    <end id="error" state="ERROR">Something went wrong.</end>
+    <end id="failed" state="FAILED">Could not send customer registration email.</end>
+    <end id="success" state="SUCCEEDED">Sent customer registration email.</end>
+
+</process>

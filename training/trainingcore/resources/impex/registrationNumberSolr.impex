@@ -1,0 +1,17 @@
+INSERT_UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true];name[unique=true];type(code);sortableType(code);currency[default=false];localized[default=false];multiValue[default=false];useForSpellchecking[default=false];useForAutocomplete[default=false];fieldValueProvider;valueProviderParameters[map-delimiter=|];ftsPhraseQuery[default=false];ftsPhraseQueryBoost;ftsQuery[default=false];ftsQueryBoost;ftsFuzzyQuery[default=false];ftsFuzzyQueryBoost;ftsWildcardQuery[default=false];ftsWildcardQueryType(code)[default=POSTFIX];ftsWildcardQueryBoost;ftsWildcardQueryMinTermLength
+
+                                 ;BackofficeVehicle; vehicleRegistrationNumber        ;string ;            ;    ;    ;    ;    ;    ;registrationNumberProvider;									;    ;   ;    ;   ;    ;  ;    ;   ;  ;
+
+
+
+$productCatalog=apparelProductCatalog
+$catalogVersions=catalogVersions(catalog(id),version);
+$facetSearchConfigName=apparel-ukIndex
+$facetSearchConfigDescription=Apparel UK Solr Index
+$searchIndexNamePrefix=apparel-uk
+$solrIndexedType=apparel-ukProductType
+$indexBaseSite=apparel-uk
+$indexLanguages=en
+$indexCurrencies=GBP
+INSERT_UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true];name[unique=true];type(code);sortableType(code);currency[default=false];localized[default=false];multiValue[default=false];useForSpellchecking[default=false];useForAutocomplete[default=false];fieldValueProvider;valueProviderParameters[map-delimiter=|];ftsPhraseQuery[default=false];ftsPhraseQueryBoost;ftsQuery[default=false];ftsQueryBoost;ftsFuzzyQuery[default=false];ftsFuzzyQueryBoost;ftsWildcardQuery[default=false];ftsWildcardQueryType(code)[default=POSTFIX];ftsWildcardQueryBoost;ftsWildcardQueryMinTermLength
+                                 ;$solrIndexedType; vehicleRegistrationNumber       ;string   ;            ;    ;    ;    ;TRUE;TRUE;    registrationNumberProvider             ;									;TRUE;80 ;TRUE;40 ;TRUE;20;    ;   ;  ;
