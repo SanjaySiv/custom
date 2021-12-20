@@ -555,7 +555,9 @@
 
 	<bean id="driverServices" class="de.hybris.training.core.services.DriverServices"/>
 
-	<bean id="dealerServices" class="de.hybris.training.core.services.DealerServices"/>
+	<bean id="dealerServices" class="de.hybris.training.core.services.DealerServices">
+		<property name="modelService" ref="modelService" />
+	</bean>
 
 	<bean id="vehicleCountJob" class="de.hybris.training.core.job.VehicleCountJob"
 		  parent="abstractJobPerformable">

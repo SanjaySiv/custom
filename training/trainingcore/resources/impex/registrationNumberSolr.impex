@@ -1,6 +1,6 @@
 INSERT_UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true];name[unique=true];type(code);sortableType(code);currency[default=false];localized[default=false];multiValue[default=false];useForSpellchecking[default=false];useForAutocomplete[default=false];fieldValueProvider;valueProviderParameters[map-delimiter=|];ftsPhraseQuery[default=false];ftsPhraseQueryBoost;ftsQuery[default=false];ftsQueryBoost;ftsFuzzyQuery[default=false];ftsFuzzyQueryBoost;ftsWildcardQuery[default=false];ftsWildcardQueryType(code)[default=POSTFIX];ftsWildcardQueryBoost;ftsWildcardQueryMinTermLength
 
-                                 ;BackofficeVehicle; vehicleRegistrationNumber        ;string ;            ;    ;    ;    ;    ;    ;registrationNumberProvider;									;    ;   ;    ;   ;    ;  ;    ;   ;  ;
+                                 ;BackofficeProduct; vehicleRegistrationNumber        ;string ;            ;    ;    ;    ;    ;    ;registrationNumberProvider;									;    ;   ;    ;   ;    ;  ;    ;   ;  ;
 
 
 

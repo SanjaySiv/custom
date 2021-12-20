@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="HybrisDeveloperSpecificProjectSettings">
-    <option name="activeRemoteConnectionID" value="f3514b20-8e48-4ea7-ad86-53a7fe6db2a9" />
-    <option name="activeSolrConnectionID" value="3fcfc124-8162-4dd0-934b-b9b3d4df0e39" />
+    <option name="activeRemoteConnectionID" value="80df155b-e017-448e-837b-c95570903c31" />
+    <option name="activeSolrConnectionID" value="8fdf585d-2a87-4438-a085-afae81144b69" />
     <option name="remoteConnectionSettingsList">
       <list>
         <HybrisRemoteConnectionSettings>
@@ -13,7 +13,7 @@
           <option name="port" value="9002" />
           <option name="ssl" value="true" />
           <option name="type" value="Hybris" />
-          <option name="uuid" value="f3514b20-8e48-4ea7-ad86-53a7fe6db2a9" />
+          <option name="uuid" value="80df155b-e017-448e-837b-c95570903c31" />
         </HybrisRemoteConnectionSettings>
         <HybrisRemoteConnectionSettings>
           <option name="adminLogin" value="solradmin" />
@@ -24,7 +24,7 @@
           <option name="solrWebroot" value="solr" />
           <option name="ssl" value="true" />
           <option name="type" value="SOLR" />
-          <option name="uuid" value="3fcfc124-8162-4dd0-934b-b9b3d4df0e39" />
+          <option name="uuid" value="8fdf585d-2a87-4438-a085-afae81144b69" />
         </HybrisRemoteConnectionSettings>
       </list>
     </option>

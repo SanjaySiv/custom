@@ -7,5 +7,6 @@ import de.hybris.training.core.model.VehicleDealersModel;
 import java.util.List;
 
 public interface DealerDao extends Dao {
-    List<VehicleDealersModel> getAllDealers();
+    public List<VehicleDealersModel> getAllDealers();
+    public List<VehicleDealersModel> getDealer(String dealerName);
 }

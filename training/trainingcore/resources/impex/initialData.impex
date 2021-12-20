@@ -12,3 +12,13 @@ INSERT_UPDATE VehicleDealers;id[unique=true];dealerName[lang=en];dealerAddress
 
 INSERT_UPDATE OAuthClientDetails;clientId[unique=true];resourceIds;scope;authorizedGrantTypes;clientSecret;authorities
                                 ;vehicleDrivers;driver;basic;authorization_code,refresh_token,password,client_credentials;vehicleDrivers;ROLE_TRUSTED_CLIENT
+
+$productCatalog=apparelProductCatalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$approved=approvalstatus(code)[default='approved']
+INSERT_UPDATE VehicleList;code[unique=true];id[unique=true];Driver				  ;$catalogVersion;$approved;vehicleRegistrationNumber[unique=true]
+                         ;980000		   ;0000V10000	   ;8796093067323		  ;				  ;			;KL 59 A 6835
+                         ;980001		   ;0000V10001	   ;8796093100091		  ;				  ;			;KL 09 D 2741
+                         ;980002		   ;0000V10002	   ;8796093132859		  ;				  ;			;KL 12 D 3412
+                         ;980003		   ;0000V10003	   ;8796093165627		  ;				  ;			;KL 02 D 4512
+

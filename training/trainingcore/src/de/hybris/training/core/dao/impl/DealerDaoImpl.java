@@ -16,4 +16,10 @@ public class DealerDaoImpl extends AbstractItemDao implements DealerDao {
         final SearchResult<VehicleDealersModel> searchResult = getFlexibleSearchService().search("SELECT {pk} FROM {VehicleDealers}");
         return searchResult.getResult() == null ? Collections.emptyList() : searchResult.getResult();
     }
+
+    @Override
+    public List<VehicleDealersModel> getDealer(String dealerName) {
+        final SearchResult<VehicleDealersModel> searchResult = getFlexibleSearchService().search("SELECT * FROM {VehicleDealers} WHERE {dealerName}='"+dealerName+"'");
+        return searchResult.getResult() == null ? Collections.emptyList() : searchResult.getResult();
+    }
 }

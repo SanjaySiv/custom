@@ -395,7 +395,7 @@
     </option>
     <option name="configDirectory" value="$PROJECT_DIR$/../../config" />
     <option name="followSymlink" value="true" />
-    <option name="hybrisDirectory" value="../.." />
+    <option name="hybrisDirectory" value="../../.." />
     <option name="hybrisProject" value="true" />
     <option name="ideModulesFilesDirectory" value="$PROJECT_DIR$/idea-module-files" />
     <option name="importOotbModulesInReadOnlyMode" value="true" />

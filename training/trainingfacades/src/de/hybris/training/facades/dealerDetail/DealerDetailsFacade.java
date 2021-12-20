@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface DealerDetailsFacade {
     public List<DealerData> getAllDealers();
+    public void removeDealer(String dealerName);
 }

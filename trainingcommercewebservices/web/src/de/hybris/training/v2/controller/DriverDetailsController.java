@@ -1,5 +1,7 @@
 package de.hybris.training.v2.controller;
 
+import de.hybris.platform.commercefacades.dealer.data.DealerData;
+import de.hybris.platform.commercefacades.user.data.AddressData;
 import de.hybris.platform.commercewebservicescommons.dto.dealerDetails.GetAllDealersDataListWSDTO;
 import de.hybris.platform.commercewebservicescommons.dto.driverDetails.DriverDetailsDataListWSDTO;
 import de.hybris.platform.commercewebservicescommons.dto.driverDetails.GetAllDriversDataListWSDTO;
@@ -14,6 +16,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.Authorization;
 import org.apache.log4j.Logger;
+import org.springframework.http.HttpStatus;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -25,8 +28,8 @@ import javax.annotation.Resource;
 @RequestMapping(value = "/{baseSiteId}")
 
 @Api(tags="Driver Details")
-public class DriverDetailsController extends BaseCommerceController{
-    private static final Logger LOGGER=Logger.getLogger(DriverDetailsController.class);
+public class DriverDetailsController extends BaseCommerceController {
+    private static final Logger LOGGER = Logger.getLogger(DriverDetailsController.class);
 
     @Resource(name = "driverDetailsFacade")
     private DriverDetailsFacade driverDetailsFacade;
@@ -34,41 +37,47 @@ public class DriverDetailsController extends BaseCommerceController{
     private DealerDetailsFacade dealerDetailsFacade;
     //@Secured("ROLE_TRUSTED_CLIENT")
 
-    @RequestMapping(value = "/{driverName}",method = RequestMethod.GET)
+    @RequestMapping(value = "/{driverName}", method = RequestMethod.GET)
     @ResponseBody
-    @ApiOperation(nickname = "driverDetails",value = "Get a specific driver details",notes = "Returns a specific driver based on driver name",
-    authorizations = {@Authorization(value = "oauth2_client_credentials")})
+    @ApiOperation(nickname = "driverDetails", value = "Get a specific driver details", notes = "Returns a specific driver based on driver name",
+            authorizations = {@Authorization(value = "oauth2_client_credentials")})
     @ApiBaseSiteIdParam
-    public DriverDetailsDataListWSDTO getDriverDetails(@ApiParam(value = "driverName",required = true)
-        @PathVariable final String driverName,
-    @ApiParam(value = "Response Configuration. This is the lis of fields that should be returned in the response body", allowableValues = "BASIC,DEFAULT,FULL")
-    @RequestParam(defaultValue = "DEFAULT_FIELD_SET")
-    final String fields)
-    {
-        LOGGER.info("Details : "+driverName);
-        final DriverDetailsDataList driverDetailsDataList=new DriverDetailsDataList();
+    public DriverDetailsDataListWSDTO getDriverDetails(@ApiParam(value = "driverName", required = true)
+                                                       @PathVariable final String driverName,
+                                                       @ApiParam(value = "Response Configuration. This is the lis of fields that should be returned in the response body", allowableValues = "BASIC,DEFAULT,FULL")
+                                                       @RequestParam(defaultValue = "DEFAULT_FIELD_SET") final String fields) {
+        LOGGER.info("Details : " + driverName);
+        final DriverDetailsDataList driverDetailsDataList = new DriverDetailsDataList();
         driverDetailsDataList.setDriverDetails(driverDetailsFacade.getDriverDetails(driverName));
-        return getDataMapper().map(driverDetailsDataList,DriverDetailsDataListWSDTO.class,fields);
+        return getDataMapper().map(driverDetailsDataList, DriverDetailsDataListWSDTO.class, fields);
     }
 
-    @RequestMapping(value="/allDrivers",method = RequestMethod.GET)
+    @RequestMapping(value = "/allDrivers", method = RequestMethod.GET)
     @ResponseBody
     @ApiOperation(nickname = "getAllDrivers", value = "Get all drivers.", notes = "Get all drivers with corresponding driver details in FULL mode.")
     @ApiBaseSiteIdParam
-    public GetAllDriversDataListWSDTO getAllDrivers(@ApiFieldsParam @RequestParam(defaultValue = DEFAULT_FIELD_SET) final String fields)
-    {
+    public GetAllDriversDataListWSDTO getAllDrivers(@ApiFieldsParam @RequestParam(defaultValue = DEFAULT_FIELD_SET) final String fields) {
         final DriverDetailsDataList driverDetailsDataList = new DriverDetailsDataList();
         driverDetailsDataList.setDriverDetails(driverDetailsFacade.getAllDrivers());
         return getDataMapper().map(driverDetailsDataList, GetAllDriversDataListWSDTO.class, fields);
     }
 
-    @RequestMapping(value="/allDealers",method = RequestMethod.GET)
+    @RequestMapping(value = "/allDealers", method = RequestMethod.GET)
     @ResponseBody
     @ApiOperation(nickname = "getAllDealers", value = "Get all dealers.", notes = "Get all dealers with corresponding dealer details in FULL mode.")
     @ApiBaseSiteIdParam
-    public GetAllDealersDataListWSDTO getAllDealers(@ApiFieldsParam @RequestParam(defaultValue = DEFAULT_FIELD_SET) final String fields){
-        final DealerDetailsDataList dealerDetailsDataList=new DealerDetailsDataList();
+    public GetAllDealersDataListWSDTO getAllDealers(@ApiFieldsParam @RequestParam(defaultValue = DEFAULT_FIELD_SET) final String fields) {
+        final DealerDetailsDataList dealerDetailsDataList = new DealerDetailsDataList();
         dealerDetailsDataList.setDealerDetails(dealerDetailsFacade.getAllDealers());
-        return getDataMapper().map(dealerDetailsDataList,GetAllDealersDataListWSDTO.class,fields);
+        return getDataMapper().map(dealerDetailsDataList, GetAllDealersDataListWSDTO.class, fields);
+    }
+
+    @RequestMapping(value = "/{dealerName}", method = RequestMethod.DELETE)
+    @ResponseStatus(HttpStatus.OK)
+    @ApiOperation(nickname = "deleteDealer", value = "delete a dealer", notes = "Delete a dealer")
+    @ApiBaseSiteIdParam
+    public void removeDealer(@ApiParam(value = "Dealer name.", required = true) @PathVariable final String dealerName) {
+        dealerDetailsFacade.removeDealer(dealerName);
+        LOGGER.info(dealerName+" deleted");
     }
 }

@@ -34,4 +34,9 @@ public class DealerDetailsFacadeImpl implements DealerDetailsFacade {
         final List<VehicleDealersModel>allDealers=dealerServices.getAllDealers();
         return Converters.convertAll(allDealers,getDealerDataConverter());
     }
+
+    @Override
+    public void removeDealer(String dealerName) {
+        dealerServices.removeDealer(dealerName);
+    }
 }

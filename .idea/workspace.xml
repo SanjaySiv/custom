@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7e29d83-8d0a-4c8f-a500-cd047d257358" name="Changes" comment="" />
+    <list default="true" id="59871aa9-2aab-4265-b8d8-6a12c9e4592f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/consolestorage/flexible_search_region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/consolestorage/solr_region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pituser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hybrisDeveloperSpecificProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hybrisDeveloperSpecificProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_21,_11_38_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_21__11_38_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingbackoffice/gensrc/org/trainingbackoffice/constants/GeneratedYacceleratorbackofficeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingbackoffice/gensrc/org/trainingbackoffice/constants/GeneratedYacceleratorbackofficeConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingbackoffice/gensrc/org/trainingbackoffice/jalo/GeneratedYacceleratorbackofficeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingbackoffice/gensrc/org/trainingbackoffice/jalo/GeneratedYacceleratorbackofficeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingbackoffice/resources/backoffice/trainingbackoffice_bof.jar" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingbackoffice/resources/backoffice/trainingbackoffice_bof.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/dao/DealerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/dao/DealerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/dao/impl/DealerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/dao/impl/DealerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/services/DealerServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/classes/de/hybris/training/core/services/DealerServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/constants/GeneratedTrainingCoreConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/constants/GeneratedTrainingCoreConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelSizeVariantProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelSizeVariantProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelStyleVariantProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedApparelStyleVariantProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedElectronicsColorVariantProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedElectronicsColorVariantProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedTestProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedTestProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedTrainingCoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedTrainingCoreManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleCountCronJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleCountCronJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleDealers.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleDealers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleDrivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/gensrc/de/hybris/training/core/jalo/GeneratedVehicleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/resources/impex/constraintImpex.impex" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/resources/impex/constraintImpex.impex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/resources/impex/initialData.impex" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/resources/impex/initialData.impex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/resources/impex/registrationNumberSolr.impex" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/resources/impex/registrationNumberSolr.impex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/resources/trainingcore-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/resources/trainingcore-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/dao/DealerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/dao/DealerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/dao/impl/DealerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/dao/impl/DealerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/services/DealerServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingcore/src/de/hybris/training/core/services/DealerServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingfacades/classes/de/hybris/training/facades/dealerDetail/DealerDetailsFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingfacades/classes/de/hybris/training/facades/dealerDetail/DealerDetailsFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingfacades/classes/de/hybris/training/facades/dealerDetail/impl/DealerDetailsFacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingfacades/classes/de/hybris/training/facades/dealerDetail/impl/DealerDetailsFacadeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingfacades/gensrc/de/hybris/training/facades/constants/GeneratedTrainingFacadesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingfacades/gensrc/de/hybris/training/facades/constants/GeneratedTrainingFacadesConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingfacades/src/de/hybris/training/facades/dealerDetail/DealerDetailsFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingfacades/src/de/hybris/training/facades/dealerDetail/DealerDetailsFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingfacades/src/de/hybris/training/facades/dealerDetail/impl/DealerDetailsFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingfacades/src/de/hybris/training/facades/dealerDetail/impl/DealerDetailsFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/traininginitialdata/gensrc/de/hybris/training/initialdata/constants/GeneratedTrainingInitialDataConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/traininginitialdata/gensrc/de/hybris/training/initialdata/constants/GeneratedTrainingInitialDataConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/trainingtest/gensrc/de/hybris/training/test/constants/GeneratedTrainingTestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/training/trainingtest/gensrc/de/hybris/training/test/constants/GeneratedTrainingTestConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingcommercewebservices/gensrc/de/hybris/training/constants/GeneratedYcommercewebservicesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainingcommercewebservices/gensrc/de/hybris/training/constants/GeneratedYcommercewebservicesConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingcommercewebservices/web/src/de/hybris/training/v2/controller/DriverDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainingcommercewebservices/web/src/de/hybris/training/v2/controller/DriverDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingcommercewebservices/web/webroot/WEB-INF/classes/de/hybris/training/v2/controller/DriverDetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/trainingcommercewebservices/web/webroot/WEB-INF/classes/de/hybris/training/v2/controller/DriverDetailsController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +53,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="NamedScopeManager">
     <scope name="[y] Custom" pattern="file[group:Custom]:*//*" />
@@ -19,7 +71,7 @@
     <scope name="[y] Platform Hybris" pattern="file[group:Platform]:*//*||file[group:Hybris]:*//*" />
     <scope name="[y] All Type System Files" pattern="file:*//*-items.xml" />
   </component>
-  <component name="ProjectId" id="22OrqalV82IFHtYBZyA4HupCmGX" />
+  <component name="ProjectId" id="22XCuoR523G0OSWpu0w6nmVMt43" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +80,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AntRunConfiguration">
@@ -37,12 +90,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7e29d83-8d0a-4c8f-a500-cd047d257358" name="Changes" comment="" />
-      <created>1639719667905</created>
+      <changelist id="59871aa9-2aab-4265-b8d8-6a12c9e4592f" name="Changes" comment="" />
+      <created>1639721579869</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639719667905</updated>
+      <updated>1639721579869</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
